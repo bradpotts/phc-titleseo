@@ -1,5 +1,5 @@
 module Phctitler
-	module Titles
+	module Titler
 
 		# Helper for Page Title
 		def phc_title(phc_page_title)
