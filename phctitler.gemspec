@@ -26,7 +26,7 @@ Gem::Specification.new do |spec|
 	spec.add_dependency 'font-awesome-rails', '~> 4.5'
 	spec.add_dependency 'sass-rails', '~> 5.0', '>= 5.0.4'
 
-	# Configure Figaro
+	# Configuration
 	spec.add_dependency 'figaro', '~> 1.1', '>= 1.1.1'
 
 	# Development & Testing Dependencies
@@ -36,6 +36,9 @@ Gem::Specification.new do |spec|
 	spec.add_development_dependency 'factory_girl_rails', '~> 4.4', '>= 4.4.1'
 	spec.add_development_dependency 'rspec-rails', '~> 3.4'
 	spec.add_development_dependency 'capybara', '~> 2.6'
+
+	spec.add_development_dependency 'better_errors', '~> 2.1', '>= 2.1.1'
+	spec.add_development_dependency 'binding_of_caller', '~> 0.7.2'
 
 	spec.add_development_dependency 'faker', '~> 1.6'
 	spec.add_development_dependency 'selenium-webdriver', '~> 2.52'
