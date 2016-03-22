@@ -3,7 +3,6 @@ module Phctitler
 
 		# Required Dependencies
 		require 'figaro'
-		require 'phctitler/titler'
 
 		# Isolate Namespace for PHC Members
 		isolate_namespace Phctitler
