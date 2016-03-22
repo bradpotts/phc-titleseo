@@ -21,7 +21,7 @@ module Phctitler
 
 		# Load Helper Files
 		config.to_prepare do
-			ApplicationController.helper(Phctitler::ApplicationHelper)
+      ApplicationController.helper(ActionController::Base)
 		end
 
 		# Auto Mount Plugin
