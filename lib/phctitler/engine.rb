@@ -6,8 +6,6 @@ module Phctitler
 		require 'sass-rails'
 		require 'bootstrap-sass'
 		require 'font-awesome-rails'
-		require 'phctitler/titler'
-
 		require 'figaro'
 
 		# Isolate Namespace for PHC Members

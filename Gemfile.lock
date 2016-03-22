@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    phctitler (0.5.0)
+    phctitler (0.7.0)
       bootstrap-sass (~> 3.3, >= 3.3.6)
       figaro (~> 1.1, >= 1.1.1)
       font-awesome-rails (~> 4.5)
