@@ -3,6 +3,7 @@ module Phctitler
 
 		# Required Dependencies
 		require 'figaro'
+    require 'phctitler/titler'
 
 		# Isolate Namespace for PHC Members
 		isolate_namespace Phctitler
@@ -17,11 +18,6 @@ module Phctitler
 			controller_specs: true,
 			request_specs: false
 			g.fixture_replacement :factory_girl, dir: "spec/factories"
-		end
-		
-		# Load Helper Files
-		config.to_prepare do
-			ApplicationController.helper(ApplicationHelper)
 		end
 		
 		# Auto Mount Plugin
