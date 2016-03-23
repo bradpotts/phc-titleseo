@@ -19,5 +19,10 @@ module Phctitler
 			g.fixture_replacement :factory_girl, dir: "spec/factories"
 		end
 
+		# Load Helper Files
+		config.to_prepare do
+			ApplicationController.helper(ApplicationHelper)
+		end
+
 	end
 end
