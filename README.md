@@ -8,7 +8,7 @@ PHCTitler adds dynamic title and title tags to your rails app.
   
 #### Step 1 - Add PHC-Titler to your gemfile  
   
-	gem 'phctitler', '~> 1.7', '>= 1.7.5'
+	gem 'phctitler', '~> 1.8'
 	bundle exec install
 	
 #### Step 2 - Load helper files in application_controller.rb  
