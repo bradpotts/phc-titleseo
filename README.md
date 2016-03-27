@@ -1,3 +1,7 @@
+[![security](https://hakiri.io/github/PHCNetworks/phc-notifi/master.svg)](https://hakiri.io/github/PHCNetworks/phc-notifi/master)
+[![Code Climate](https://codeclimate.com/github/PHCNetworks/phc-titler/badges/gpa.svg)](https://codeclimate.com/github/PHCNetworks/phc-titler)
+[![Issue Count](https://codeclimate.com/github/PHCNetworks/phc-notifi/badges/issue_count.svg)](https://codeclimate.com/github/PHCNetworks/phc-notifi)
+[![Gem Version](https://badge.fury.io/rb/phctitler.svg)](https://badge.fury.io/rb/phctitler)
   
 ### PHC-Titler (Page Titles & Title Tags) Documentation
 PHCTitler adds dynamic title and title tags to your rails app. 
