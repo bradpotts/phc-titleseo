@@ -6,7 +6,12 @@ module Phctitler
 
 		# Isolate Namespace for PHC Members
 		isolate_namespace Phctitler
-		
+
+		# Load Requried Helper Files
+		config.to_prepare do
+			ApplicationController.helper(Phctitler::ApplicationHelper)
+		end
+
 		# Testing Generator
 		config.generators do |g|
 			g.test_framework :rspec,
@@ -17,11 +22,6 @@ module Phctitler
 			controller_specs: true,
 			request_specs: false
 			g.fixture_replacement :factory_girl, dir: "spec/factories"
-		end
-
-		# Load Helper Files
-		config.to_prepare do
-			ApplicationController.helper(ApplicationHelper)
 		end
 
 	end
