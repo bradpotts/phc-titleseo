@@ -6,16 +6,16 @@
 ### PHC-Titler (Page Titles & Title Tags) Documentation
 PHCTitler adds dynamic title and title tags to your rails app. 
   
-#### Step 1 - Add PHC-Titler to your gemfile  
+#### Step 1 - Add PHCTitler to your gemfile  
   
-	gem 'phctitler', '~> 1.8'
+	gem 'phctitler', '~> 1.8', '>= 1.8.2'
 	bundle exec install
 	
-#### Step 2 - Load helper files in application_controller.rb  
+#### Step 2 - Load helpers files in application_controller.rb  
   
 	helper Phctitler::Engine.helpers
 	
-#### Step 3 - Provide Value for Titles & Title Tags
+#### Step 3 - Provide values for Titles & Title Tags
   
   	<% phc_title "Example Title" %>
 	<% phc_title_tagline "Example Tagline" %>
