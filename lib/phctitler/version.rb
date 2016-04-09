@@ -1,3 +1,3 @@
 module Phctitler
-	VERSION = "1.8.2"
+	VERSION = "1.8.5"
 end

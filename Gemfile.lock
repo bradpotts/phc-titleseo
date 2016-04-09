@@ -4,8 +4,8 @@ PATH
     phctitler (1.8.2)
       bootstrap-sass (~> 3.3, >= 3.3.6)
       figaro (~> 1.1, >= 1.1.1)
-      font-awesome-rails (~> 4.5)
-      jquery-rails (~> 4.0, >= 4.0.5)
+      font-awesome-rails (~> 4.5, >= 4.5.0.1)
+      jquery-rails (~> 4.1, >= 4.1.1)
       rails (~> 4.2, >= 4.2.6)
       sass-rails (~> 5.0, >= 5.0.4)
 
@@ -49,7 +49,7 @@ GEM
       tzinfo (~> 1.1)
     addressable (2.4.0)
     arel (6.0.3)
-    autoprefixer-rails (6.3.5)
+    autoprefixer-rails (6.3.6)
       execjs
     better_errors (2.1.1)
       coderay (>= 1.0.0)
@@ -61,7 +61,7 @@ GEM
       autoprefixer-rails (>= 5.2.1)
       sass (>= 3.3.4)
     builder (3.2.2)
-    capybara (2.6.2)
+    capybara (2.7.0)
       addressable
       mime-types (>= 1.16)
       nokogiri (>= 1.3.3)
@@ -77,10 +77,10 @@ GEM
     diff-lcs (1.2.5)
     erubis (2.7.0)
     execjs (2.6.0)
-    factory_girl (4.5.0)
+    factory_girl (4.7.0)
       activesupport (>= 3.0.0)
-    factory_girl_rails (4.6.0)
-      factory_girl (~> 4.5.0)
+    factory_girl_rails (4.7.0)
+      factory_girl (~> 4.7.0)
       railties (>= 3.0.0)
     faker (1.6.3)
       i18n (~> 0.5)
@@ -165,7 +165,7 @@ GEM
       childprocess (~> 0.5)
       rubyzip (~> 1.0)
       websocket (~> 1.0)
-    sprockets (3.5.2)
+    sprockets (3.6.0)
       concurrent-ruby (~> 1.0)
       rack (> 1, < 3)
     sprockets-rails (3.0.4)
@@ -188,14 +188,14 @@ PLATFORMS
 DEPENDENCIES
   better_errors (~> 2.1, >= 2.1.1)
   binding_of_caller (~> 0.7.2)
-  capybara (~> 2.6)
-  database_cleaner (~> 1.5)
-  factory_girl_rails (~> 4.4, >= 4.4.1)
-  faker (~> 1.6)
+  capybara (~> 2.7)
+  database_cleaner (~> 1.5, >= 1.5.1)
+  factory_girl_rails (~> 4.7)
+  faker (~> 1.6, >= 1.6.3)
   phctitler!
-  rspec-rails (~> 3.4)
-  selenium-webdriver (~> 2.52)
-  sqlite3 (~> 1.3)
+  rspec-rails (~> 3.4, >= 3.4.2)
+  selenium-webdriver (~> 2.53)
+  sqlite3 (~> 1.3, >= 1.3.11)
 
 BUNDLED WITH
    1.11.2
