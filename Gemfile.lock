@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    phctitler (1.8.6)
+    phctitler (1.8.7)
       bootstrap-sass (~> 3.3, >= 3.3.6)
       font-awesome-rails (~> 4.6, >= 4.6.1.0)
       jquery-rails (~> 4.1, >= 4.1.1)
