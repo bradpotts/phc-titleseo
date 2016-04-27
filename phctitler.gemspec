@@ -27,9 +27,6 @@ Gem::Specification.new do |spec|
 	spec.add_dependency 'sass-rails', '~> 5.0', '>= 5.0.4'
 
 	# Development & Testing Dependencies
-	spec.add_development_dependency 'sqlite3', '~> 1.3', '>= 1.3.11'
-	spec.add_development_dependency 'database_cleaner', '~> 1.5', '>= 1.5.3'
-
 	spec.add_development_dependency 'factory_girl_rails', '~> 4.7'
 	spec.add_development_dependency 'rspec-rails', '~> 3.4', '>= 3.4.2'
 	spec.add_development_dependency 'capybara', '~> 2.7'
