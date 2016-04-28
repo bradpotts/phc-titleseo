@@ -2,7 +2,10 @@ module Phctitler
 	class Engine < ::Rails::Engine
 
 		# Required Dependencies
-		require 'figaro'
+		require 'jquery-rails'
+		require 'sass-rails'
+		require 'bootstrap-sass'
+		require 'font-awesome-rails'
 
 		# Isolate Namespace for PHC Members
 		isolate_namespace Phctitler
