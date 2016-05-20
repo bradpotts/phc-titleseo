@@ -1,4 +1,4 @@
 require "phctitler/engine"
 
-module Phctitler
+module Phctitleseo
 end
