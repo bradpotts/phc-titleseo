@@ -1,4 +1,4 @@
 # desc "Explaining what the task does"
-# task :phctitler do
+# task :phctitleseo do
 #   # Task goes here
 # end

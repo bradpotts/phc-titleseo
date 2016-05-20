@@ -3,12 +3,12 @@
 [![Issue Count](https://codeclimate.com/github/PHCNetworks/phc-notifi/badges/issue_count.svg)](https://codeclimate.com/github/PHCNetworks/phc-notifi)
 [![Gem Version](https://badge.fury.io/rb/phctitler.svg)](https://badge.fury.io/rb/phctitler)
   
-### PHCTitleritleseo(2) (Page SEO, Titles & Title Tags) Documentation
+### PHCTitleSEO(2) (Page SEO, Titles & Title Tags) Documentation
 PHCTitleseo adds dynamic title and title tags to your rails app. 
   
-#### Step 1 - Add PHCTitleritleseo to your gemfile  
+#### Step 1 - Add PHCTitleSEO to your gemfile  
   
-	gem 'phctitler', '~> 1.8', '>= 1.8.7'
+	gem 'phctitleseo', '~> 1.8', '>= 1.8.7'
 	bundle exec install
 	
 #### Step 2 - Load helpers files in application_controller.rb  
