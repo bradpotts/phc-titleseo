@@ -1,4 +1,4 @@
-module Phctitler
+module Phctittleseo
   module ApplicationHelper
 
     # Helper for Page Title

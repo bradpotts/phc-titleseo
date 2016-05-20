@@ -1,4 +1,4 @@
-module Phctitler
+module Phctittleseo
 	class ApplicationController < ActionController::Base
 
 	end
