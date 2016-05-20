@@ -3,7 +3,7 @@
 [![Issue Count](https://codeclimate.com/github/PHCNetworks/phc-notifi/badges/issue_count.svg)](https://codeclimate.com/github/PHCNetworks/phc-notifi)
 [![Gem Version](https://badge.fury.io/rb/phctitler.svg)](https://badge.fury.io/rb/phctitler)
   
-### PHC-Titler (Page Titles & Title Tags) Documentation
+### PHC-titleseo (Page Titles & Title Tags) Documentation
 PHCTitler adds dynamic title and title tags to your rails app. 
   
 #### Step 1 - Add PHCTitler to your gemfile  

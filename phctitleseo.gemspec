@@ -1,18 +1,18 @@
 $:.push File.expand_path("../lib", __FILE__)
 
 # Get Version File
-require "phctitler/version"
+require "phctitleseo/version"
 
 # Gemspec and Dependencies
 Gem::Specification.new do |spec|
 
-	spec.name        = "phctitler"
-	spec.version     = Phctitler::VERSION
+	spec.name        = "phctitleseo"
+	spec.version     = Phctitleseo::VERSION
 	spec.authors     = ["BradPotts"]
 	spec.email       = ["info@phcnetworks.net"]
 	spec.homepage    = "http://www.phcnetworks.net/engine-yard"
 	spec.summary     = "Rails Page Titles and Title Taglines"
-	spec.description = "PHCTitler is an open source engine with helpers for dynamic page title and title tags."
+	spec.description = "PHCTitleseo is an open source engine with helpers for dynamic page title and title tags."
 	spec.license     = "GPL-3.0"
 
 	spec.files = Dir["{app,config,db,lib}/**/*", "LICENSE", "Rakefile", "README.md"]
