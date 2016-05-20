@@ -1,3 +1,3 @@
-module Phctitler
-	VERSION = "1.8.8"
+module Phctitleseo
+	VERSION = "2.0.0"
 end

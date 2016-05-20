@@ -1,2 +1,2 @@
-Phctitler::Engine.routes.draw do
+Phctitleseo::Engine.routes.draw do
 end

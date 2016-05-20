@@ -1,4 +1,4 @@
-module Phctitler
+module Phctitleseo
 	class Engine < ::Rails::Engine
 
 		# Required Dependencies
@@ -8,11 +8,11 @@ module Phctitler
 		require 'font-awesome-rails'
 
 		# Isolate Namespace for PHC Members
-		isolate_namespace Phctitler
+		isolate_namespace Phctitleseo
 
 		# Load Requried Helper Files
 		config.to_prepare do
-			ApplicationController.helper(Phctitler::ApplicationHelper)
+			ApplicationController.helper(Phctitleseo::ApplicationHelper)
 		end
 
 		# Testing Generator
