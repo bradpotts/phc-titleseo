@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    phctitleseo (2.5.0)
+    phctitleseo (2.5.1)
       authrocket (~> 2.0, >= 2.0.1)
       bootstrap-sass (~> 3.3, >= 3.3.6)
       font-awesome-rails (~> 4.6, >= 4.6.3.1)
@@ -10,7 +10,6 @@ PATH
       multi_json (~> 1.12, >= 1.12.1)
       oj (~> 2.16, >= 2.16.1)
       pg (~> 0.18.4)
-      phcnotifi (~> 2.6, >= 2.6.9)
       rabl (~> 0.12.0)
       rails (~> 4.2, >= 4.2.6)
       responders (~> 2.2)
@@ -127,12 +126,6 @@ GEM
       pkg-config (~> 1.1.7)
     oj (2.16.1)
     pg (0.18.4)
-    phcnotifi (2.6.9)
-      bootstrap-sass (~> 3.3, >= 3.3.6)
-      font-awesome-rails (~> 4.6, >= 4.6.1.0)
-      jquery-rails (~> 4.1, >= 4.1.1)
-      rails (~> 4.2, >= 4.2.6)
-      sass-rails (~> 5.0, >= 5.0.4)
     pkg-config (1.1.7)
     rabl (0.12.0)
       activesupport (>= 2.3.14)

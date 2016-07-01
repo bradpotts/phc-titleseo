@@ -21,7 +21,6 @@ Gem::Specification.new do |spec|
 	spec.add_dependency 'rails', '~> 4.2', '>= 4.2.6'
 	spec.add_dependency 'responders', '~> 2.2'
 	spec.add_dependency 'multi_json', '~> 1.12', '>= 1.12.1'
-	spec.add_dependency 'phcnotifi', '~> 2.6', '>= 2.6.9'
 	spec.add_dependency 'authrocket', '~> 2.0', '>= 2.0.1'
 	spec.add_dependency 'pg', '~> 0.18.4'
 
