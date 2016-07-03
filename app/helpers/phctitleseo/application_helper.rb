@@ -13,4 +13,3 @@ module Phctitleseo
 
   end
 end
-
