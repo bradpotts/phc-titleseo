@@ -3,8 +3,8 @@
 [![Issue Count](https://codeclimate.com/github/PHCNetworks/phc-titleseo/badges/issue_count.svg)](https://codeclimate.com/github/PHCNetworks/phc-titleseo)
 [![Gem Version](https://badge.fury.io/rb/phctitleseo.svg)](https://badge.fury.io/rb/phctitleseo)
 
-### PHCTitleSEO(2) (Page SEO, Titles & Title Tags) Documentation
-PHCTitleseo adds dynamic title and title tags to your rails app. 
+### PHCTitleSEO(3) (Page SEO, Titles & Title Tags) Documentation
+PHCTitleseo(3) adds dynamic title and title tags to your rails app. 
   
 #### Step 1 - Add PHCTitleSEO to your gemfile  
   
