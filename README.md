@@ -8,7 +8,7 @@ PHCTitleseo adds dynamic title and title tags to your rails app.
   
 #### Step 1 - Add PHCTitleSEO to your gemfile  
   
-	gem 'phctitleseo', '~> 2.0'
+	gem 'phctitleseo', '~> 3.0'
 	bundle exec install
 	
 #### Step 2 - Load helpers files in application_controller.rb  
