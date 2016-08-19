@@ -28,3 +28,7 @@ PHCTitleseo(3) adds dynamic title and title tags to your rails app.
   
 	<%= yield(:phc_title_tagline) %>
   
+#### Additional Information
+
+- [Critical Security Updates](https://github.com/PHCNetworks/phc-titleseo/wiki/Critical-Security-Updates)
+  
