@@ -20,7 +20,7 @@ Gem::Specification.new do |spec|
 	# Main Dependencies
 	spec.add_dependency 'rails', '~> 5.0', '>= 5.0.0.1'
 	spec.add_dependency 'pg', '~> 0.19.0'
-	
+
 	# UI & Frontend Elements
 	spec.add_dependency 'jquery-rails', '~> 4.2', '>= 4.2.1'
 	spec.add_dependency 'jquery-ui-rails', '~> 5.0', '>= 5.0.5'
@@ -41,6 +41,6 @@ Gem::Specification.new do |spec|
 
 	spec.add_development_dependency 'faker', '~> 1.6', '>= 1.6.6'
 	spec.add_development_dependency 'launchy', '~> 2.4', '>= 2.4.3'
-	spec.add_development_dependency 'selenium-webdriver', '~> 3.0'
+	spec.add_development_dependency 'selenium-webdriver', '~> 3.0', '>= 3.0.1'
 
 end
