@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    phctitleseo (3.3.7)
+    phctitleseo (3.3.8)
       bootstrap-sass (~> 3.3, >= 3.3.7)
       country_select (~> 3.0)
       font-awesome-rails (~> 4.7)

@@ -12,7 +12,7 @@ Gem::Specification.new do |spec|
 	spec.email       = ["developers@phcnetworks.net"]
 	spec.homepage    = "https://webdev.phcnetworks.net/"
 	spec.summary     = "PHCTitleSEO(3) Title Tags"
-	spec.description = "PHCTitle/SEO(3) rails engine with helpers for page headings, taglines, seo and title tags"
+	spec.description = "PHCTitle/SEO(3) rails engine with helpers for page headings, taglines, seo and title tags."
 	spec.license     = "MIT"
 
 	spec.files = Dir["{app,config,db,lib}/**/*", "MIT-LICENSE", "Rakefile", "README.md"]
