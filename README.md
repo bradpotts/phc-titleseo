@@ -4,7 +4,11 @@
 [![Gem Version](https://badge.fury.io/rb/phctitleseo.svg)](https://badge.fury.io/rb/phctitleseo)  
   
 ### PHCTitleSEO(3) (Page SEO, Titles & Title Tags) Documentation
-PHCTitleseo(3) adds dynamic title and title tags to your rails app. 
+PHCTitle/SEO(3) rails engine with helpers for page headings, taglines, seo and title tags.
+  
+- A dynamic way to add page headings, taglines, seo and title tags.
+- Setup in seconds with only one line of code in the application_helper file.
+- Save time and keep your rails projects manageable, tidy and secure.
   
 #### Step 1 - Add PHCTitleSEO to your gemfile  
   
