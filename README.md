@@ -31,8 +31,8 @@ Add the code below in your views whenever page titles are required (can be used 
   
 	<%= yield(:phc_title) %>
   
-#### Add Titles Tags to your Page 
-Add the code below in your views for page taglines/subtitles (can also be added unlimited number of times).  
+#### Add Subtitles/Title Tags to your Page 
+Add the code below in your views whenever page subtitles are required (can also be used unlimited number of times).  
   
 	<%= yield(:phc_title_tagline) %>
   
