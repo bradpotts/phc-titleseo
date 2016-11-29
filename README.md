@@ -20,7 +20,7 @@ Add the line of code below into your app/controllers/application_controller.rb (
   
 	helper Phctitleseo::Engine.helpers
 	
-#### Step 3 - Provide values for Titles & Title Tags  
+#### Step 3 - Provide values for Titles & Subtitles 
 At the top of every page add the hidden lines of code below.
   
   	<% phc_title "Example Title" %>
