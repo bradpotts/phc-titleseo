@@ -27,12 +27,12 @@ At the top of every page add the hidden lines of code below.
 	<% phc_title_tagline "Example Tagline" %>
   
 #### Add Titles to a Page  
-Add the snippet of code below in your views whenever page titles are required (can be added unlimited number of times).  
+Add the code below in your views whenever page titles are required (can be used unlimited number of times).  
   
 	<%= yield(:phc_title) %>
   
 #### Add Titles Tags to your Page 
-Add the snippet of code below in your views for page taglines/subtitles (can also be added unlimited number of times).  
+Add the code below in your views for page taglines/subtitles (can also be added unlimited number of times).  
   
 	<%= yield(:phc_title_tagline) %>
   
