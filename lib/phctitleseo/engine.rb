@@ -1,19 +1,17 @@
 module Phctitleseo
 	class Engine < ::Rails::Engine
 
-		# Required Dependencies
+		# UI & Frontend Dependencies
 		require 'jquery-rails'
+		require 'jquery-ui-rails'
 		require 'sass-rails'
 		require 'bootstrap-sass'
 		require 'font-awesome-rails'
-
-		# Isolate Namespace for PHC Members
+		require 'country_select'
+		require 'gravtastic'
+	
+		# Isolate Namespace
 		isolate_namespace Phctitleseo
-
-		# Load Requried Helper Files
-		config.to_prepare do
-			ApplicationController.helper(Phctitleseo::ApplicationHelper)
-		end
 
 		# Testing Generator
 		config.generators do |g|
@@ -25,6 +23,11 @@ module Phctitleseo
 			controller_specs: true,
 			request_specs: false
 			g.fixture_replacement :factory_girl, dir: "spec/factories"
+		end
+
+		# Load Requried Helper Files
+		config.to_prepare do
+			Phctitleseo::ApplicationController.helper(ApplicationHelper)
 		end
 
 	end
