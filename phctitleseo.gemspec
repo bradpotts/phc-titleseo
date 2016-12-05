@@ -30,11 +30,11 @@ Gem::Specification.new do |spec|
 	spec.add_dependency 'sass-rails', '~> 5.0', '>= 5.0.6'
 	spec.add_dependency 'country_select', '~> 3.0'
 	spec.add_dependency 'gravtastic', '~> 3.2', '>= 3.2.6'
-	
+
 	# Development & Testing Dependencies
 	spec.add_development_dependency 'rspec-rails', '~> 3.5', '>= 3.5.2'
 	spec.add_development_dependency 'factory_girl_rails', '~> 4.7'
-	spec.add_development_dependency 'capybara', '~> 2.10', '>= 2.10.2'
+	spec.add_development_dependency 'capybara', '~> 2.11'
 	spec.add_development_dependency 'byebug', '~> 9.0', '>= 9.0.6'
 
 	spec.add_development_dependency 'sqlite3', '~> 1.3', '>= 1.3.12'
