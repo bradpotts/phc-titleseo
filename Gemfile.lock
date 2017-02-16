@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    phctitleseo (3.6.4)
+    phctitleseo (4.0.0)
       bootstrap-sass (~> 3.3, >= 3.3.7)
       country_select (~> 3.0)
       font-awesome-rails (~> 4.7, >= 4.7.0.1)
@@ -222,7 +222,7 @@ DEPENDENCIES
   launchy (~> 2.4, >= 2.4.3)
   phctitleseo!
   rspec-rails (~> 3.5, >= 3.5.2)
-  selenium-webdriver (~> 3.0, >= 3.0.8)
+  selenium-webdriver (~> 3.1)
   sqlite3 (~> 1.3, >= 1.3.13)
 
 BUNDLED WITH
