@@ -11,8 +11,8 @@ Gem::Specification.new do |spec|
   spec.authors     = ["BradPotts"]
   spec.email       = ["info@phcnetworks.net"]
   spec.homepage    = "https://phcnetworks.net/"
-  spec.summary     = "PHCTitleSEO(3) Rails SEO Engine"
-  spec.description = "PHCTitle/SEO(3) rails engine with helpers for page headings, taglines, seo and title tags."
+  spec.summary     = "PHCTitleSEO(4) Rails SEO Engine"
+  spec.description = "PHCTitle/SEO(4) rails engine with helpers for page headings, taglines, seo and title tags."
   spec.license     = "MIT"
   
   #Load Engine Files
@@ -35,7 +35,7 @@ Gem::Specification.new do |spec|
   # Development & Testing Dependencies
   spec.add_development_dependency 'rspec-rails', '~> 3.5', '>= 3.5.2'
   spec.add_development_dependency 'factory_girl_rails', '~> 4.8'
-  spec.add_development_dependency 'capybara', '~> 2.11'
+  spec.add_development_dependency 'capybara', '~> 2.12', '>= 2.12.1'
   spec.add_development_dependency 'byebug', '~> 9.0', '>= 9.0.6'
   
   spec.add_development_dependency 'sqlite3', '~> 1.3', '>= 1.3.13'
