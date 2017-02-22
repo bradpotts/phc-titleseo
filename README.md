@@ -29,13 +29,13 @@ Add the line of code below into your app/controllers/application_controller.rb (
 **Page SEO** - At the top of your layout view file add the hidden lines of code below.
 
 	<% phc_seo_title "Example SEO Page Title" %>
-	<% :phc_seo_description "Example SEO Page Description" %>
+	<% phc_seo_description "Example SEO Page Description" %>
   
 **Page Static BreadCrumbs** - At the top of the page view add the hidden lines of code below.
 
 	<% phc_breadcrumb_one "Example News" %>
-	<% :phc_breadcrumb_two "Article" %>
-	<% :phc_breadcrumb_three "Index" %>
+	<% phc_breadcrumb_two "Article" %>
+	<% phc_breadcrumb_three "Index" %>
   
   
 #### Add Titles to a Page  
@@ -64,4 +64,5 @@ Add the code below in your views whenever page subtitles are required (can also 
 #### Additional Information
 
 - [Critical Security Updates](https://github.com/PHCNetworks/phc-titleseo/wiki/Critical-Security-Updates)
+
   
