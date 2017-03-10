@@ -9,3 +9,15 @@ spec/testapp/db/*.sqlite3
 spec/testapp/db/*.sqlite3-journal
 spec/testapp/log/*.log
 spec/testapp/tmp/
+
+.DS_Store
+
+# Ignore the default SQLite database.
+/db/*.sqlite3
+/db/*.sqlite3-journal
+
+# Ignore all logfiles and tempfiles.
+/log/*
+!/log/.keep
+/tmp
+.byebug_history

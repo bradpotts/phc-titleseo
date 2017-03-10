@@ -65,4 +65,3 @@ Add the code below in your views whenever page subtitles are required (can also 
 #### Additional Information
 
 - [Critical Security Updates](https://github.com/PHCNetworks/phc-titleseo/wiki/Critical-Security-Updates)
-
