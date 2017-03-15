@@ -11,8 +11,8 @@ Gem::Specification.new do |spec|
   spec.authors     = ["BradPotts"]
   spec.email       = ["info@phcnetworks.net"]
   spec.homepage    = "https://phcnetworks.net/"
-  spec.summary     = "PHCTitleSEO(4) Rails SEO Engine"
-  spec.description = "PHCTitle/SEO(4) rails engine with helpers for page headings, taglines, seo and title tags."
+  spec.summary     = "PHCTitleSEO(5) Rails SEO Engine"
+  spec.description = "PHCTitle/SEO(5) rails engine with helpers for page headings, taglines, seo and title tags."
   spec.license     = "MIT"
 
   #Load Engine Files
@@ -20,7 +20,7 @@ Gem::Specification.new do |spec|
 
   # Main Dependencies
   spec.add_dependency 'rails', '~> 5.0', '>= 5.0.2'
-  spec.add_dependency 'pg', '~> 0.19.0'
+  spec.add_dependency 'pg', '~> 0.20.0'
   spec.add_dependency 'paper_trail', '~> 6.0', '>= 6.0.2'
 
   # UI & Frontend Dependencies
