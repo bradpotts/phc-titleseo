@@ -4,8 +4,8 @@
 [![Gem Version](https://badge.fury.io/rb/phctitleseo.svg)](https://badge.fury.io/rb/phctitleseo)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://github.com/PHCNetworks/phc-titleseo/blob/master/MIT-LICENSE)  
 
-### PHCTitleSEO(6) (Page SEO, Titles & Title Tags) Documentation
-PHCTitle/SEO(6) rails engine with helpers for page headings, taglines, seo and title tags.
+### PHCTitleSEO(6) for Rails 5.1 (Page SEO, Titles & Title Tags) Documentation
+PHCTitle/SEO(6) Rails 5.1 Engine with helpers for page headings, taglines, seo and title tags.
 
 * A dynamic way to add different page headings, taglines, seo and title tags.
 * Setup in seconds with only one line of code in the application_helper file.
