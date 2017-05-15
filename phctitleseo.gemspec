@@ -11,15 +11,15 @@ Gem::Specification.new do |spec|
   spec.authors     = ["BradPotts"]
   spec.email       = ["info@phcnetworks.net"]
   spec.homepage    = "https://phcnetworks.net/"
-  spec.summary     = "PHCTitleSEO(6) Rails 5.1 SEO Engine"
-  spec.description = "PHCTitle/SEO(6) Rails 5.1 Engine with helpers for page headings, taglines, seo and title tags."
+  spec.summary     = "Rails 5.1 Engine - PHCTitleSEO(7)"
+  spec.description = "PHCTitle/SEO(7) Rails 5.1 engine with helpers for page headings, taglines, seo and title tags."
   spec.license     = "MIT"
 
   #Load Engine Files
   spec.files = Dir["{app,config,db,lib}/**/*", "MIT-LICENSE", "Rakefile", "README.md"]
 
   # Main Dependencies
-  spec.add_dependency 'rails', '~> 5.1'
+  spec.add_dependency 'rails', '~> 5.1', '>= 5.1.1'
   spec.add_dependency 'pg', '~> 0.20.0'
   spec.add_dependency 'paper_trail', '~> 7.0', '>= 7.0.2'
 
@@ -37,7 +37,7 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency 'byebug', '~> 9.0', '>= 9.0.6'
 
   spec.add_development_dependency 'sqlite3', '~> 1.3', '>= 1.3.13'
-  spec.add_development_dependency 'database_cleaner', '~> 1.6'
+  spec.add_development_dependency 'database_cleaner', '~> 1.6', '>= 1.6.1'
 
   spec.add_development_dependency 'faker', '~> 1.7', '>= 1.7.3'
   spec.add_development_dependency 'launchy', '~> 2.4', '>= 2.4.3'
