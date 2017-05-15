@@ -43,4 +43,7 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency 'launchy', '~> 2.4', '>= 2.4.3'
   spec.add_development_dependency 'selenium-webdriver', '~> 3.4'
 
+  # Temporary Security Fix
+  spec.add_development_dependency 'mail', '~> 2.7.0.rc1'
+
 end
