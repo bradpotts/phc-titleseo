@@ -1,8 +1,3 @@
-[![security](https://hakiri.io/github/PHCNetworks/phc-titleseo/master.svg)](https://hakiri.io/github/PHCNetworks/phc-titleseo/master)
-[![Code Climate](https://codeclimate.com/github/PHCNetworks/phc-titleseo/badges/gpa.svg)](https://codeclimate.com/github/PHCNetworks/phc-titleseo)
-[![Gem Version](https://badge.fury.io/rb/phctitleseo.svg)](https://badge.fury.io/rb/phctitleseo)
-[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://github.com/PHCNetworks/phc-titleseo/blob/master/MIT-LICENSE)
-
 ### PHCTitleSEO for Rails 5.1 (Page SEO, Titles & Title Tags) Documentation
 PHCTitle/SEO Rails 5.1 engine with helpers for page headings, taglines, seo and title tags.
 
@@ -61,6 +56,5 @@ Add the code below in your views whenever page subtitles are required (can also 
 	 <li class="active"><%= yield(:phc_breadcrumb_three) %></li>
 	</ol>
 
-#### Additional Information
-
-- [Critical Security Updates](https://github.com/PHCNetworks/phc-titleseo/wiki/Critical-Security-Updates)
+[![Gem Version](https://badge.fury.io/rb/phctitleseo.svg)](https://badge.fury.io/rb/phctitleseo)
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://github.com/PHCNetworks/phc-titleseo/blob/master/MIT-LICENSE)
