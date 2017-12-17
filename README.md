@@ -1,4 +1,5 @@
 ### PHCTitleSEO for Rails 5.1 (Page SEO, Titles & Title Tags) Documentation
+
 PHCTitle/SEO Rails 5.1 engine with helpers for page headings, taglines, seo and title tags.
 
 * A dynamic way to add different page headings, taglines, seo and title tags.
@@ -7,7 +8,7 @@ PHCTitle/SEO Rails 5.1 engine with helpers for page headings, taglines, seo and 
 
 #### Step 1 - Add PHCTitleSEO to your gemfile  
 
-	gem 'phctitleseo', '~> 14.0'
+	gem 'phctitleseo', '~> 15.0'
 	bundle install
 
 #### Step 2 - Load Helpers in the Application's Controller
@@ -32,7 +33,6 @@ Add the line of code below into your app/controllers/application_controller.rb (
 	<% phc_breadcrumb_two "Article" %>
 	<% phc_breadcrumb_three "Index" %>
 
-
 #### Add Titles to a Page  
 Add the code below in your views whenever page titles are required (can be used unlimited number of times).  
 
@@ -56,5 +56,4 @@ Add the code below in your views whenever page subtitles are required (can also 
 	 <li class="active"><%= yield(:phc_breadcrumb_three) %></li>
 	</ol>
 
-[![Gem Version](https://badge.fury.io/rb/phctitleseo.svg)](https://badge.fury.io/rb/phctitleseo)
-[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://github.com/PHCNetworks/phc-titleseo/blob/master/MIT-LICENSE)
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://github.com/PHCNetworks/phc-titleseo/blob/master/MIT-LICENSE) [![Gem Version](https://badge.fury.io/rb/phctitleseo.svg)](https://badge.fury.io/rb/phctitleseo)
