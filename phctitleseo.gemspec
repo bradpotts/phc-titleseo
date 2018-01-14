@@ -20,7 +20,7 @@ Gem::Specification.new do |spec|
 
   # Main Dependencies
   spec.add_dependency 'paper_trail', '~> 8.1'
-  spec.add_dependency gem 'pg', '~> 0.21.0'
+  spec.add_dependency 'pg', '~> 0.21.0'
   spec.add_dependency 'rails', '~> 5.1'
 
   # UI & Frontend Dependencies

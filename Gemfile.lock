@@ -5,9 +5,9 @@ PATH
       jquery-rails (~> 4.3)
       jquery-ui-rails (~> 6.0)
       paper_trail (~> 8.1)
+      pg (~> 0.21.0)
       rails (~> 5.1)
       sass-rails (~> 5.0)
-      true
       webpacker (~> 3.2)
 
 GEM
@@ -108,6 +108,7 @@ GEM
     paper_trail (8.1.2)
       activerecord (>= 4.2, < 5.2)
       request_store (~> 1.1)
+    pg (0.21.0)
     public_suffix (3.0.1)
     rack (2.0.3)
     rack-proxy (0.6.3)
@@ -193,8 +194,6 @@ GEM
     thor (0.20.0)
     thread_safe (0.3.6)
     tilt (2.0.8)
-    true (2.2.2)
-      sass (~> 3.4)
     tzinfo (1.2.4)
       thread_safe (~> 0.1)
     webpacker (3.2.0)
