@@ -46,7 +46,7 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency 'minitest', '~> 5.11'
 
   # Extra Development & Testing Dependencies
-  spec.add_development_dependency 'letter_opener', '~> 1.4'
+  spec.add_development_dependency 'letter_opener', '~> 1.6'
   spec.add_development_dependency 'shoulda-matchers', '~> 3.1'
   spec.add_development_dependency 'simplecov', '~> 0.15.1'
 

@@ -217,7 +217,7 @@ DEPENDENCIES
   factory_bot_rails (~> 4.8)
   faker (~> 1.8)
   launchy (~> 2.4)
-  letter_opener (~> 1.4)
+  letter_opener (~> 1.6)
   minitest (~> 5.11)
   nokogiri (~> 1.8)
   phctitleseo!
