@@ -1,3 +1,3 @@
 module Phctitleseo
-  VERSION = "18.0.0"
+  VERSION = "20.0.0"
 end
