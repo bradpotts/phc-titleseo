@@ -11,8 +11,8 @@ Gem::Specification.new do |spec|
   spec.authors     = ["BradPotts"]
   spec.email       = ["info@phcnetworks.net"]
   spec.homepage    = "https://phcnetworks.net/"
-  spec.summary     = "Rails 5.1 Engine - PHCTitleSEO"
-  spec.description = "PHCTitle/SEO Rails 5.1 engine with helpers for page headings, taglines, seo and title tags."
+  spec.summary     = "Rails 5.2 Engine - PHCTitleSEO"
+  spec.description = "PHCTitle/SEO Rails engine with helpers for page headings, taglines, seo and title tags."
   spec.license     = "MIT"
 
   #Load Engine Files
