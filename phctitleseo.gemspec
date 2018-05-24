@@ -1,53 +1,42 @@
-$:.push File.expand_path("../lib", __FILE__)
-
-# Gem Versioning
+$:.push File.expand_path("lib", __dir__)
 require "phctitleseo/version"
 
-# Gem Specification Information
-Gem::Specification.new do |spec|
+Gem::Specification.new do |phc_gem_spec|
 
-  spec.name        = "phctitleseo"
-  spec.version     = Phctitleseo::VERSION
-  spec.authors     = ["BradPotts"]
-  spec.email       = ["info@phcnetworks.net"]
-  spec.homepage    = "https://phcnetworks.net/"
-  spec.summary     = "Rails 5.2 Engine - PHCTitleSEO"
-  spec.description = "PHCTitle/SEO Rails engine with helpers for page headings, taglines, seo and title tags."
-  spec.license     = "MIT"
+  phc_gem_spec.name        = "phctitleseo"
+  phc_gem_spec.version     = Phctitleseo::VERSION
+  phc_gem_spec.authors     = ["BradPotts"]
+  phc_gem_spec.email       = ["info@phcnetworks.net"]
+  phc_gem_spec.homepage    = "https://phcnetworks.net/"
+  phc_gem_spec.summary     = "Rails 5.2 Engine - PHCTitleSEO"
+  phc_gem_spec.description = "Rails engine with helpers for page headings, taglines, seo and title tags."
+  phc_gem_spec.license     = "MIT"
 
-  #Load Engine Files
-  spec.files = Dir["{app,config,db,lib}/**/*", "MIT-LICENSE", "Rakefile", "README.md"]
+  phc_gem_spec.files = Dir["{app,lib}/**/*", "MIT-LICENSE", "Rakefile", "README.md"]
 
   # Main Dependencies
-  spec.add_dependency 'paper_trail', '~> 9.0'
-  spec.add_dependency 'pg', '~> 0.21.0'
-  spec.add_dependency 'rails', '~> 5.2'
+  phc_gem_spec.add_dependency "rails", "~> 5.2", ">= 5.2.0"
 
-  # UI & Frontend Dependencies
-  spec.add_dependency 'jquery-rails', '~> 4.3'
-  spec.add_dependency 'jquery-ui-rails', '~> 6.0'
-  spec.add_dependency 'sass-rails', '~> 5.0'
-  spec.add_dependency 'webpacker', '~> 3.5'
+  # Admin Panel Theme Dependencies
+  phc_gem_spec.add_dependency "phcadmin1", "~> 26.0"
+  phc_gem_spec.add_dependency "phcadmin2", "~> 26.0"
+  phc_gem_spec.add_dependency "phcadmin3", "~> 21.0"
+  phc_gem_spec.add_dependency "phcadmin4", "~> 3.0"
+  phc_gem_spec.add_dependency "phcadmin5", "~> 3.0"
 
-  # Development & Testing Dependencies
-  spec.add_development_dependency 'byebug', '~> 10.0'
-  spec.add_development_dependency 'capybara', '~> 3.1'
-  spec.add_development_dependency 'database_cleaner', '~> 1.7'
+  # Website Theme Dependencies
+  phc_gem_spec.add_dependency "phctheme2", "~> 21.0"
+  phc_gem_spec.add_dependency "phctheme1", "~> 32.0"
 
-  spec.add_development_dependency 'factory_bot_rails', '~> 4.8'
-  spec.add_development_dependency 'faker', '~> 1.8'
-  spec.add_development_dependency 'launchy', '~> 2.4'
+  # Development Dependencies
+  phc_gem_spec.add_development_dependency "rspec-rails", "~> 3.7"
+  phc_gem_spec.add_development_dependency "byebug", "~> 10.0"
+  phc_gem_spec.add_development_dependency "capybara", "~> 3.1"
 
-  spec.add_development_dependency 'rspec-rails', '~> 3.7'
-  spec.add_development_dependency 'selenium-webdriver', '~> 3.12'
-  spec.add_development_dependency 'sqlite3', '~> 1.3'
+  phc_gem_spec.add_development_dependency 'factory_bot_rails', '~> 4.8'
+  phc_gem_spec.add_development_dependency 'faker', '~> 1.8'
+  phc_gem_spec.add_development_dependency 'launchy', '~> 2.4'
 
-  spec.add_development_dependency 'nokogiri', '~> 1.8'
-  spec.add_development_dependency 'minitest', '~> 5.11'
-
-  # Extra Development & Testing Dependencies
-  spec.add_development_dependency 'letter_opener', '~> 1.6'
-  spec.add_development_dependency 'shoulda-matchers', '~> 3.1'
-  spec.add_development_dependency 'simplecov', '~> 0.16.1'
+  phc_gem_spec.add_development_dependency 'sqlite3', '~> 1.3'
 
 end
