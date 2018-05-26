@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    phctitleseo (24.0.0)
+    phctitleseo (24.0.1)
       phcadmin1 (~> 26.0)
       phcadmin2 (~> 26.0)
       phcadmin3 (~> 21.0)
