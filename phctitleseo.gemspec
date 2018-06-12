@@ -12,6 +12,7 @@ Gem::Specification.new do |phc_gem_spec|
   phc_gem_spec.description = "Rails engine with helpers for page headings, taglines, seo and title tags."
   phc_gem_spec.license     = "MIT"
 
+  #Load Engine Files
   phc_gem_spec.files = Dir["{app,lib}/**/*", "MIT-LICENSE", "Rakefile", "README.md"]
 
   # Main Dependencies
