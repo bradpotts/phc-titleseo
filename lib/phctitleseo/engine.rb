@@ -1,9 +1,11 @@
 module Phctitleseo
   class Engine < ::Rails::Engine
 
-    # PHCThemes
+    # PHCTheme Dependencies
     require 'phctheme1'
     require 'phctheme2'
+    require 'phctheme3'
+    require 'phctheme3'
     require 'phctheme3'
 
     require 'phcadmin1'
