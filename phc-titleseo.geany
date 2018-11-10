@@ -20,16 +20,17 @@ indent_mode=2
 [project]
 name=phc-titleseo
 base_path=/home/pi/workspaces/phc-titleseo
+description=
 
 [long line marker]
 long_line_behaviour=1
 long_line_column=72
 
 [files]
-current_page=0
+current_page=-1
 
 [VTE]
-last_dir=/home/pi/workspaces/phc-notifi
+last_dir=/home/pi/workspaces/phc-titleseo
 
 [prjorg]
 source_patterns=*.c;*.C;*.cpp;*.cxx;*.c++;*.cc;*.m;
