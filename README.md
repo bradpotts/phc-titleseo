@@ -8,7 +8,7 @@ PHCTitle/SEO Rails 5.2 engine with helpers for page headings, taglines, SEO and 
 
 #### Step 1 - Add PHCTitleSEO to your gemfile  
 
-	gem 'phctitleseo', '~> 35.0'
+	gem 'phctitleseo'
 	bundle install
 
 #### Step 2 - Load Helpers in the Application's Controller
