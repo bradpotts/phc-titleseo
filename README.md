@@ -51,7 +51,7 @@ Add the code below to your views whenever page subtitles are required (can also 
 #### Add static BreadCrumbs to your Pagefile
 
 	<ol class="breadcrumb">
-	 <li><%= yield(:phc_breadcrumb_one) %></li>
-	 <li><%= yield(:phc_breadcrumb_two) %></li>
-	 <li class="active"><%= yield(:phc_breadcrumb_three) %></li>
+		<li><%= yield(:phc_breadcrumb_one) %></li>
+		<li><%= yield(:phc_breadcrumb_two) %></li>
+		<li class="active"><%= yield(:phc_breadcrumb_three) %></li>
 	</ol>
